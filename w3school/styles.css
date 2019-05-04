@@ -1,0 +1,19 @@
+nav
+{
+	height: 48px;
+	width: 1210px;
+	margin: 0 0 0 12px;
+	padding: 0;
+	border: 0;
+	background: #E8E7E3;
+}
+
+#menu li {float: left;}
+
+#h	{left:0;width:155px;}
+#j	{left:155px;width:157px;}
+#s	{left:312px;width:167px;}
+#a 	{left:479px;width:158px;}
+#x	{left:637px;width:101px;}
+#ws	{left:738px;width:185px;}
+#wb	{left:923px;width:177px;}
