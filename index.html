@@ -4,24 +4,7 @@
 	<title>lpyshmily个人网站</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-	<style type="text/css">
-		 table {
-		 	border-collapse: collapse;
-		 	border: 1px solid black;
-		 }
-		 th {
-		 	border: 1px solid black;
-		 	background: grey;
-		 	color: white;
-		 }
-		 td {
-		 	border: 1px solid black;
-		 }
-		 caption {
-		 	padding: 10px;
-		 }
-	</style>
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
 </head>
 <body>
 	<h1>Hello World</h1>
@@ -119,11 +102,19 @@
     </table>
 
     <h2>视频和音频</h2>
-    <video controls>
-    	<source src="videos/rabbit320.webm" type="video/webm">
+    <video controls width="400" height="400" loop muted poster="images/poster.png">
+    	<source src="videos/rabbit320.weba" type="video/webm">
     	<source src="videos/rabbit320.mp4" type="video/mp4">
-		<p>你的浏览器不支持HTML5视频。可点击<a href="rabbit320.mp4">此链接</a>观看</p>
+		<p>你的浏览器不支持HTML5视频。可点击<a href="rabbit320.mp4">此链接</a>观看。</p>
     </video>
     
+    <audio controls autoplay>
+    	<source src="audios/Welcome_To_New_York-Taylor_Swift.mp3" type="audio/mp3">
+    </audio>
+
+    <h2>iframe</h2>
+	<p>欢迎观看我在Bilibili上发布的视频</p>
+	<iframe src="https://player.bilibili.com/player.html?aid=44944205&cid=78718687&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
 </body>
 </html>

@@ -1,0 +1,24 @@
+body {
+	background-color: grey;
+}
+header {
+	background-image: url(images/Tiffany_0.jpg);
+}
+table {
+	border-collapse: collapse;
+	border: 1px solid black;
+}
+th {
+	border: 1px solid black;
+	background: grey;
+	color: white;
+}
+td {
+	border: 1px solid black;
+}
+caption {
+	padding: 10px;
+}
+a:active {
+	color: red;
+}
