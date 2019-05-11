@@ -108,13 +108,45 @@
 		<p>你的浏览器不支持HTML5视频。可点击<a href="rabbit320.mp4">此链接</a>观看。</p>
     </video>
     
-    <audio controls autoplay>
+    <audio controls>
     	<source src="audios/Welcome_To_New_York-Taylor_Swift.mp3" type="audio/mp3">
     </audio>
 
     <h2>iframe</h2>
 	<p>欢迎观看我在Bilibili上发布的视频</p>
 	<iframe src="https://player.bilibili.com/player.html?aid=44944205&cid=78718687&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
+    <h2>表单</h2>
+    <form action="/my-handing-form-page" method="post">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" name="user_name" id="name" placeholder="Lpy">
+        </div>
+        <div>
+            <label for="mail">E-mail:</label>
+            <input type="email" name="user_email" id="mail" value="default email" disabled>
+        </div>
+        <div>
+            <label for="msg">Message:</label>
+            <textarea name="user_message" id="msg">default message</textarea>
+        </div>
+        <div class="button">
+            <button type="submit">Send your message.</button>
+        </div>
+        <meter min="0" max="100" value="75" low="33" high="66" optimum="50">75</meter>
+    </form>
+
+    <h2>自定义组件</h2>
+    <div class="select active" tabindex="0">
+        <span class="value">Cherry</span>
+        <ul class="optList hidden">
+            <li class="option">Cherry</li>
+            <li class="option">Lemon</li>
+            <li class="option">Banana</li>
+            <li class="option">Strawberry</li>
+            <li class="option">Apple</li>
+        </ul>
+    </div>
 
 </body>
 </html>
